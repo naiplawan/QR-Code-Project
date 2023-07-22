@@ -5,29 +5,14 @@
 
 @media (max-width: 375px) {
     .box-containner {
-        width: 90%;
-    }
-
-    .main-text {
-        font-size: 1.5rem;
-    }
-
-    .sub-text {
-        font-size: 0.9rem;
+        width: 50%;
     }
 }
 
 @media (min-width: 1440px) {
     .box-containner {
         max-width: 40rem;
-    }
-
-    .main-text {
-        font-size: 2.5rem;
-    }
-
-    .sub-text {
-        font-size: 1.2rem;
+        max-height: 50rem;
     }
 }
 
@@ -57,7 +42,7 @@ html, body {
     border-radius: 5%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width: 30%;
-    height: 45%;
+
 
     padding: 5%;
 }
@@ -68,21 +53,20 @@ html, body {
     border-radius: 5%;
 }
 
-.main-text,
-.sub-text {
+.main-text{
     text-align: center;
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .sub-text {
-    font-size: 2rem;
+    font-size: 0.5rem;
     font-weight: 400;
 }
 
 .attribution {
     font-weight: 400;
-    font-size: 0.688rem;
+    font-size: 0.23rem;
 }
 
 .seperator {
