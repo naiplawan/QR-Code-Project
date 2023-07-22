@@ -1,2 +1,2 @@
 # QR-Code-Project
- just build project with HTML and CSS
+build side-project with HTML and CSS
